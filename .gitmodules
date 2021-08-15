@@ -1,0 +1,6 @@
+[submodule "Pip/vendor/spdlog"]
+	path = Pip/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Pip/OutsideVend/spdlog"]
+	path = Pip/OutsideVend/spdlog
+	url = https://github.com/gabime/spdlog

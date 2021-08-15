@@ -1,5 +1,7 @@
 # Pip: The Pip Game Engine
 
 # Update Submodules
-git submodule init 
-git submodule update
+
+cmd: git submodule init 
+
+cmd: git submodule update

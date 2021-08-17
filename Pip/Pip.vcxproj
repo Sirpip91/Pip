@@ -147,6 +147,10 @@
     <ClInclude Include="src\Pip\Application.h" />
     <ClInclude Include="src\Pip\Core.h" />
     <ClInclude Include="src\Pip\EntryPoint.h" />
+    <ClInclude Include="src\Pip\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Pip\Events\Event.h" />
+    <ClInclude Include="src\Pip\Events\KeyEvent.h" />
+    <ClInclude Include="src\Pip\Events\MouseEvent.h" />
     <ClInclude Include="src\Pip\Log.h" />
   </ItemGroup>
   <ItemGroup>

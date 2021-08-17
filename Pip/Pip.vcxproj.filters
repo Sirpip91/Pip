@@ -19,6 +19,10 @@
     <ClInclude Include="src\Pip\Log.h">
       <Filter>Pip</Filter>
     </ClInclude>
+    <ClInclude Include="src\Pip\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Pip\Events\Event.h" />
+    <ClInclude Include="src\Pip\Events\KeyEvent.h" />
+    <ClInclude Include="src\Pip\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Pip\Application.cpp">

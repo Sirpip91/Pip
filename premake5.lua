@@ -19,6 +19,9 @@ project "Pip"
 	targetdir("bin/" .. outputdir .. "/%{prj.name}")
 	objdir("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "pippch.h"
+	pchsource "Pip/src/pippch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

@@ -1,8 +1,9 @@
+#include "pippch.h"
 #include "Application.h"
 #include "Events/ApplicationEvent.h"
 #include "Events/Event.h"
 #include "Log.h"
-
+#include "Core.h"
 
 namespace Pip {
 

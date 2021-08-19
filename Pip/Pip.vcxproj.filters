@@ -4,6 +4,9 @@
     <Filter Include="Pip">
       <UniqueIdentifier>{2E15880B-9A1E-887C-239A-9E7C8FA2937C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pip\Events">
+      <UniqueIdentifier>{52614868-3E19-8AB5-A720-631193F724A6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Pip.h" />
@@ -16,13 +19,22 @@
     <ClInclude Include="src\Pip\EntryPoint.h">
       <Filter>Pip</Filter>
     </ClInclude>
+    <ClInclude Include="src\Pip\Events\ApplicationEvent.h">
+      <Filter>Pip\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pip\Events\Event.h">
+      <Filter>Pip\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pip\Events\KeyEvent.h">
+      <Filter>Pip\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pip\Events\MouseEvent.h">
+      <Filter>Pip\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Pip\Log.h">
       <Filter>Pip</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pip\Events\ApplicationEvent.h" />
-    <ClInclude Include="src\Pip\Events\Event.h" />
-    <ClInclude Include="src\Pip\Events\KeyEvent.h" />
-    <ClInclude Include="src\Pip\Events\MouseEvent.h" />
+    <ClInclude Include="src\pippch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Pip\Application.cpp">
@@ -31,5 +43,6 @@
     <ClCompile Include="src\Pip\Log.cpp">
       <Filter>Pip</Filter>
     </ClCompile>
+    <ClCompile Include="src\pippch.cpp" />
   </ItemGroup>
 </Project>
